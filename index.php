@@ -69,11 +69,15 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <a href="#" class="navbar-brand mx-auto">Login Usuario</a>
     </nav>
-    <div class="container mx-auto" style="margin-top: 15%; width: 40rem;">
+    <div style="margin-bottom: 23px"></div>
+    <div class="container">
         <div class="well">
-            <a href="crud/resultados.php"><button class="btn btn-info">Consultar Resultados</button></a>
-            <a href="crud/agregar.php"><button class="btn btn-info">Agregar Proyecto</button></a> <br>
-            <h1 class=" card bg-secondary text-center">Inicio de sesión Profesor</h1>
+            <center>
+            <a href="crud/resultados.php"><button class="btn btn-success" style="margin-bottom: 10px">Consultar Resultados</button></a>
+            <a href="crud/agregar.php"><button class="btn btn-warning" style="margin-bottom: 10px">Agregar Proyecto</button></a>
+            </center>
+  <div class="" style="margin-top: 30px">
+            <strong><p class="card bg-info text-center" style="font-size: 4vh; font-family:Matura MT Script Capitals">Sesión Profesor</p></strong>
         <form method="post" action="index.php">
             <div class="form-group">
                 <input type="text" id="nombre" name="nombre" class="form-control form-control-lg" placeholder="Nombre">
@@ -81,8 +85,9 @@
             <div class="form-group">
                 <input type="password" id="contra" name="contra" class="form-control form-control-lg" placeholder="Contraseña">
             </div>
-            <button type="submit" class="btn btn-primary" id="login">ENTRAR</button>
+            <center><button type="submit" class="btn btn-primary" id="login">ENTRAR</button></center>
         </form>
+    </div>
         </div>
     </div>
  <!--**************************Termina el codigo********************************-->

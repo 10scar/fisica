@@ -77,7 +77,7 @@
             <a href="crud/agregar.php"><button class="btn btn-warning" style="margin-bottom: 10px">Agregar Proyecto</button></a>
             </center>
   <div class="" style="margin-top: 30px">
-            <h1 class="card bg-info text-center" style="font-family:Matura MT Script Capitals"><strong>Sesión Profesor</strong></h1>
+            <h1 class="col card bg-info" style="font-family:Matura MT Script Capitals"><strong>Sesión Profesor</strong></h1>
         <form method="post" action="index.php" class="col">
             <div class="form-group">
                 <input type="text" id="nombre" name="nombre" class="form-control form-control-lg" placeholder="Nombre">

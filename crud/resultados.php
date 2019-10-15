@@ -31,16 +31,16 @@
 
  <!--**************************Empieza el codigo********************************-->
     <h1><center class="card">Lista de Proyectos</center></h1>
-  <div class="container" style="margin-top: 1%;">
+  <div class="" style="margin-top: 1%;">
     <a href="../index.php"><button class="btn btn-warning">Regresar</button></a>
-    <div class="row card bg-white border-info text-black ">
-      <div class="col-12">
+    <div class="card bg-white border-info text-black ">
+      <div class="table-responsive">
       <table class="table" style="">
         <thead>
-        <td><strong>Nombre Integrante</strong></td>
-        <td><strong>Nombre Proyecto</strong></td>
-        <td><strong>Descripción</strong></td>
-        <td><strong>Nota</strong></td>
+        <td scope="col"><strong>Nombre Integrante</strong></td>
+        <td scope="col"><strong>Nombre Proyecto</strong></td>
+        <td scope="col"><strong>Descripción</strong></td>
+        <td scope="col"><strong>Nota</strong></td>
         </thead>
         <?php include('../extend/conexion.php');
         $proyectos = new clsconexion();

@@ -38,13 +38,13 @@
 
  <!--**************************Empieza el codigo********************************-->
     <h1 class=""><center>Lista de Proyectos</center></h1>
-    <div class="container" style="margin-top: 1%;">
+    <div class="" style="margin-top: 1%;">
       <div class="row">
       <a href="../logout.php"><button class="btn btn-danger">Salir</button></a>
     <div class="col"><a href="creacion.php"><button class="btn btn-success">Adicionar Proyecto</button></a></div>
       </div>
-    <div class="row card bg-info">
-      <div class="col-12">
+    <div class=" card bg-info">
+      <div class="table-responsive">
       <table class="table" style="">
         <thead>
         <td><strong>Nombre Integrante</strong></td>

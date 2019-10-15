@@ -59,7 +59,7 @@
 
             <td><?php echo $integrante; ?></td>
             <td><?php echo $nombre ?></td>
-            <td><?php echo $descripcion ?></td>
+            <td><?php echo  substr($descripcion , 0, 50) ?>...</td>
             <td><?php echo $nota ?></td>
 
           </tr>

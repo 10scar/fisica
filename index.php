@@ -70,8 +70,8 @@
         <a href="#" class="navbar-brand mx-auto">Login Usuario</a>
     </nav>
     <div style="margin-bottom: 23px"></div>
-    <div class="container">
-        <div class="well">
+    <div class="container fluid">
+        <div class="">
             <center>
             <a href="crud/resultados.php"><button class="btn btn-success" style="margin-bottom: 10px">Consultar Resultados</button></a>
             <a href="crud/agregar.php"><button class="btn btn-warning" style="margin-bottom: 10px">Agregar Proyecto</button></a>

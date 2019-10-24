@@ -23,7 +23,7 @@ class clsconexion
 	}
 	public function leer()
 	{
-		$sql = "SELECT * FROM proyecto order by integrantes asc";
+		$sql = "SELECT * FROM proyecto";
 		$data = mysqli_query($this->conexion,$sql);
 		return $data;
 	}
